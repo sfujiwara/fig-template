@@ -27,10 +27,10 @@ plt.plot(x, y1, label=r'sin x')
 plt.errorbar(
     x, y2,
     yerr=err,
-   label='cos x',
-   elinewidth=elw,
-   capsize=cs,
-   fmt = 'g--x'
+    label='cos x',
+    elinewidth=elw,
+    capsize=cs,
+    fmt = 'g--x'
 )
 plt.xlabel('x')
 plt.ylabel('sin x')
